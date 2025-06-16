@@ -1,0 +1,87 @@
+@import url("https://raw.githubusercontent.com/12brendon34/DTM-18/refs/heads/main/dtm-18.theme.css");
+@import url("https://clearvision.github.io/ClearVision-v7/main.css");
+@import url("https://clearvision.github.io/ClearVision-v7/vencord.css");
+
+:root {
+  --main-color: #FFD700;
+  --hover-color: #e6c200;
+  --success-color: #a0cc70;
+  --danger-color: #c04c4c;
+
+  --online-color: #ffd700;
+  --idle-color: #e6b800;
+  --dnd-color: #b84545;
+  --streaming-color: #9370db;
+  --offline-color: #585870;
+
+/*  --background-image: url('https://raw.githubusercontent.com/12brendon34/DTM-18/refs/heads/main/LowQ_Fast.webp');
+
+  --background-attachment: scroll;
+  --background-filter: none;
+
+  --background-position: center;
+  --background-size: cover;
+
+  --user-popout-image: var(--background-image);
+  --user-popout-position: center;
+  --user-popout-size: cover;
+  --user-popout-attachment: scroll;
+  /*--user-popout-filter: brightness(0.9) contrast(1.1) saturate(1.1);*/
+
+  --user-popout-filter: none;
+  --user-modal-filter: none;
+
+  --user-modal-image: var(--background-image);
+  --user-modal-position: center;
+  --user-modal-size: cover;
+  --user-modal-attachment: scroll;
+  /*--user-modal-filter: brightness(0.9) contrast(1.1) saturate(1.1);*/
+
+  --home-icon: url('https://clearvision.github.io/icons/discord.svg');
+  --home-size: 40px;
+
+  --channel-unread: var(--main-color);
+  --channel-unread-hover: var(--hover-color);
+  --channel-normal: rgba(255, 255, 180, 0.3);
+  --channel-muted: rgba(255, 255, 180, 0.1);
+
+  --channels-width: 220px;
+  --members-width: 240px;
+
+  --backdrop-overlay: rgba(0,0,0,0.6); /* slightly lighter */
+*/
+}
+
+/*DTM-18 fixes for ClearVision*/
+/* Settings / Profile / microphone section */
+/*idk what it's actually called*/
+.container__37e49 {
+    background: rgba(0, 0, 0, 0) !important;
+    color: var(--text-normal) !important;
+}
+/*remove the lil extra margin for the thing above*/
+.sidebarList_c48ade {
+    margin-bottom: 0 !important;
+}
+
+/* not sure what this did either*/
+.wrapper_ef3116 {
+    margin-bottom: 0 !important;
+}
+
+/* Server Info Dropdown */
+.header_f37cb1 {
+    background: rgba(0, 0, 0, 0) !important;
+    border-bottom: 1px solid var(--hsl-main-color) !important;
+}
+
+/*Active Now Section*/
+.scroller__7d20c.thin_d125d2.scrollerBase_d125d2 {
+    background: hsl(from var(--hsl-card-shading) h s l / 0.4);
+    border-color: var(--background-modifier-accent);
+}
+
+/*Active Now Entry*/ 
+.header__00943 {
+    background-color: var(--hsl-background-shading) !important;
+}
