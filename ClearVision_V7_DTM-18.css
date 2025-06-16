@@ -14,42 +14,7 @@
   --streaming-color: #9370db;
   --offline-color: #585870;
 
-/*  --background-image: url('https://raw.githubusercontent.com/12brendon34/DTM-18/refs/heads/main/LowQ_Fast.webp');
-
-  --background-attachment: scroll;
-  --background-filter: none;
-
-  --background-position: center;
-  --background-size: cover;
-
-  --user-popout-image: var(--background-image);
-  --user-popout-position: center;
-  --user-popout-size: cover;
-  --user-popout-attachment: scroll;
-  /*--user-popout-filter: brightness(0.9) contrast(1.1) saturate(1.1);*/
-
-  --user-popout-filter: none;
-  --user-modal-filter: none;
-
-  --user-modal-image: var(--background-image);
-  --user-modal-position: center;
-  --user-modal-size: cover;
-  --user-modal-attachment: scroll;
-  /*--user-modal-filter: brightness(0.9) contrast(1.1) saturate(1.1);*/
-
-  --home-icon: url('https://clearvision.github.io/icons/discord.svg');
-  --home-size: 40px;
-
-  --channel-unread: var(--main-color);
-  --channel-unread-hover: var(--hover-color);
-  --channel-normal: rgba(255, 255, 180, 0.3);
-  --channel-muted: rgba(255, 255, 180, 0.1);
-
-  --channels-width: 220px;
-  --members-width: 240px;
-
-  --backdrop-overlay: rgba(0,0,0,0.6); /* slightly lighter */
-*/
+  --background-image: url('https://raw.githubusercontent.com/12brendon34/DTM-18/refs/heads/main/LowQ_Fast.webp');
 }
 
 /*DTM-18 fixes for ClearVision*/
